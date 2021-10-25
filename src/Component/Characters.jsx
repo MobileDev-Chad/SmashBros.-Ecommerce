@@ -31,7 +31,7 @@ const Characters = () => {
           <button className="btn btn-outline-dark me-1">Animal Crossing</button>
           <button className="btn btn-outline-dark me-1">Mega Man</button>
           <button className="btn btn-outline-dark me-1">Wii Fit</button>
-          <button className="btn btn-outline-dark me-1">Punch Out</button>
+          <button className="btn btn-outline-dark me-1">Punch-Out!!</button>
           <button className="btn btn-outline-dark me-1">Downloadable</button>
         </div>
         {CharacterList.map(({id, images, name, series}) => {

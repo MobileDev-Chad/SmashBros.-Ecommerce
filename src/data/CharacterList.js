@@ -15,7 +15,7 @@ export const CharacterList = [
       "id": "1",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
@@ -83,7 +83,7 @@ export const CharacterList = [
         "portrait": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595196410/Ultimate%20Characters/Portraits/kr63y9f7yp5e5kruz4i5.png"
       },
       "name": "Dark Samus",
-      "id": "4e",
+      "id": "04",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595194655/Series/fxdmwjgnygjbaetfvjzy.svg",
         "name": "Metroid"
@@ -162,7 +162,7 @@ export const CharacterList = [
       "id": "8",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Series/mstlaeic4u1lgbzyfjdw.svg",
-        "name": "Pokémon"
+        "name": "Pokemon"
       }
     },
     {
@@ -181,7 +181,7 @@ export const CharacterList = [
       "id": "9",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
@@ -238,7 +238,7 @@ export const CharacterList = [
       "id": "12",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Series/mstlaeic4u1lgbzyfjdw.svg",
-        "name": "Pokémon"
+        "name": "Pokemon"
       }
     },
     {
@@ -255,7 +255,7 @@ export const CharacterList = [
       "id": "13",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
@@ -266,10 +266,10 @@ export const CharacterList = [
         "portrait": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211071/Ultimate%20Characters/Portraits/hxdttho9vmxtvonegb9a.png"
       },
       "name": "Daisy",
-      "id": "13e",
+      "id": "013",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
@@ -286,7 +286,7 @@ export const CharacterList = [
       "id": "14",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
@@ -303,7 +303,7 @@ export const CharacterList = [
       "id": "15",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211554/Series/elcz77vgrgasu9l1s5hr.svg",
-        "name": "Ice Climber"
+        "name": "Ice Climbers"
       }
     },
     {
@@ -353,7 +353,7 @@ export const CharacterList = [
       "id": "18",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
@@ -369,7 +369,7 @@ export const CharacterList = [
       "id": "19",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Series/mstlaeic4u1lgbzyfjdw.svg",
-        "name": "Pokémon"
+        "name": "Pokemon"
       }
     },
     {
@@ -418,7 +418,7 @@ export const CharacterList = [
         "portrait": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213224/Ultimate%20Characters/Portraits/lykaxbghjrmoawddzoqp.png"
       },
       "name": "Lucina",
-      "id": "21e",
+      "id": "021",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213106/Series/uj3kecbitighgwf6khrd.svg",
         "name": "Fire Emblem"
@@ -472,7 +472,7 @@ export const CharacterList = [
       "id": "24",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Series/mstlaeic4u1lgbzyfjdw.svg",
-        "name": "Pokémon"
+        "name": "Pokemon"
       }
     },
     {
@@ -500,7 +500,7 @@ export const CharacterList = [
         "portrait": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213968/Ultimate%20Characters/Portraits/wddc8fbxlsp5ylgotefk.png"
       },
       "name": "Chrom",
-      "id": "25e",
+      "id": "025",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213106/Series/uj3kecbitighgwf6khrd.svg",
         "name": "Fire Emblem"
@@ -568,7 +568,7 @@ export const CharacterList = [
         "portrait": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263876/Ultimate%20Characters/Portraits/elttvd94sgqjdwgpt0ck.png"
       },
       "name": "Dark Pit",
-      "id": "28e",
+      "id": "028",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263748/Series/avacpo60oulifezowbm3.svg",
         "name": "Kid Icarus"
@@ -650,11 +650,11 @@ export const CharacterList = [
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264862/Ultimate%20Characters/Icons/yvnxrxzchwuctsjprkhc.png",
         "portrait": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264862/Ultimate%20Characters/Portraits/posqzvrhabawj0tq0mcc.png"
       },
-      "name": "Pokémon Trainer",
+      "name": "Pokemon Trainer",
       "id": "33-35",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Series/mstlaeic4u1lgbzyfjdw.svg",
-        "name": "Pokémon"
+        "name": "Pokemon"
       }
     },
     {
@@ -756,7 +756,7 @@ export const CharacterList = [
       "id": "41",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Series/mstlaeic4u1lgbzyfjdw.svg",
-        "name": "Pokémon"
+        "name": "Pokemon"
       }
     },
     {
@@ -870,7 +870,7 @@ export const CharacterList = [
       "id": "48",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
@@ -902,7 +902,7 @@ export const CharacterList = [
       "id": "50",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Series/mstlaeic4u1lgbzyfjdw.svg",
-        "name": "Pokémon"
+        "name": "Pokemon"
       }
     },
     {
@@ -1030,7 +1030,7 @@ export const CharacterList = [
       "id": "58",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
@@ -1073,7 +1073,7 @@ export const CharacterList = [
         "portrait": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553604/Ultimate%20Characters/Portraits/vhhjuhcygtj64ykct5ng.png"
       },
       "name": "Ken",
-      "id": "60e",
+      "id": "060",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553458/Series/styqpzn2nur6otldctue.svg",
         "name": "Street Fighter"
@@ -1147,7 +1147,7 @@ export const CharacterList = [
         "portrait": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698599/Ultimate%20Characters/Portraits/df2ejzpss1e6ze5tpulg.png"
       },
       "name": "Richter",
-      "id": "66e",
+      "id": "066",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698474/Series/yenuncg5oknxmowsq3hh.svg",
         "name": "Castlevania"
@@ -1192,7 +1192,7 @@ export const CharacterList = [
       "id": "69",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Series/mstlaeic4u1lgbzyfjdw.svg",
-        "name": "Pokémon"
+        "name": "Pokemon"
       }
     },
     {
@@ -1206,7 +1206,7 @@ export const CharacterList = [
       "id": "70",
       "series": {
         "icon": "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501902/Series/mario_ncgezx.svg",
-        "name": "Mario"
+        "name": "Super Mario"
       }
     },
     {
