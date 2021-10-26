@@ -1,6 +1,8 @@
 export const CharacterList = [
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description:
+      "Whether you're dressed as a construction worker, a wedding goer, or just regular old Mario, it shouldn't come as a surprise that the man himself shows up in this game. Another great addition is Cappy, coming from Super Mario Odyssey, who adds some power to the man himself. When you play as Mario, you get to be a part of a great team!",
     availability: "Starter",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501674/Ultimate%20Characters/Icons/120px-MarioHeadSSBUWebsite_hkzzpq.png",
@@ -17,6 +19,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Starter",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501698/Ultimate%20Characters/Icons/120px-DonkeyKongHeadSSBUWebsite_h8qz9i.png",
@@ -33,6 +36,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Starter",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501722/Ultimate%20Characters/Icons/120px-LinkHeadSSBUWebsite_pzo2jz.png",
@@ -49,6 +53,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Starter",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595194655/Ultimate%20Characters/Icons/i5rvljkpajr2rqkflkmm.png",
@@ -65,6 +70,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: [],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595196410/Ultimate%20Characters/Icons/sjopx966kkczkijelpim.png",
@@ -81,6 +87,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Starter",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595197033/Ultimate%20Characters/Icons/yzfsd5sz2h6izdgre4ub.png",
@@ -97,6 +104,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Starter",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198280/Ultimate%20Characters/Icons/b3xbw1uwuhubocyibecv.png",
@@ -113,6 +121,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Starter",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198574/Ultimate%20Characters/Icons/ahaz2u4oaenmzgqhrpz6.png",
@@ -129,6 +138,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Starter",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Ultimate%20Characters/Icons/o07zv6beydfx0erkavfk.png",
@@ -145,6 +155,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199027/Ultimate%20Characters/Icons/bhciash4n90qbxy4bu3e.png",
@@ -161,6 +172,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199211/Ultimate%20Characters/Icons/eyzbbk2u1upzrfuxzpxo.png",
@@ -177,6 +189,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199362/Ultimate%20Characters/Icons/oeseikgvv04jdik1m47l.png",
@@ -193,6 +206,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199643/Ultimate%20Characters/Icons/vgbgm6ao6yrpfae0chmk.png",
@@ -209,6 +223,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595210915/Ultimate%20Characters/Icons/adenccvsngq5mmxtgg6c.png",
@@ -225,6 +240,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: [],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211071/Ultimate%20Characters/Icons/yzrulx2ixqfuktvsslwc.png",
@@ -241,6 +257,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211321/Ultimate%20Characters/Icons/ku5bfpewtw5qvvxrbbyc.png",
@@ -257,6 +274,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211554/Ultimate%20Characters/Icons/f0x0erel0h87cko9qgyl.png",
@@ -273,6 +291,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211924/Ultimate%20Characters/Icons/kxacuatj0g1lhvawmlib.png",
@@ -289,6 +308,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212046/Ultimate%20Characters/Icons/yl8te2a0y3k9tuhs2onr.png",
@@ -305,6 +325,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212315/Ultimate%20Characters/Icons/wz4wmoj8ky5wbdsxfz9l.png",
@@ -321,6 +342,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Melee"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212716/Ultimate%20Characters/Icons/h1tn2ec517gvnvze1jns.png",
@@ -337,6 +359,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212959/Ultimate%20Characters/Icons/g7chnuctc9jy3jclrnuf.png",
@@ -353,6 +376,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213106/Ultimate%20Characters/Icons/hcz3nbywrdgd1zgu5lvg.png",
@@ -369,6 +393,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213224/Ultimate%20Characters/Icons/qfucv1c7wobimkzaltwl.png",
@@ -385,6 +410,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Melee"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213463/Ultimate%20Characters/Icons/ratlejqm8xek4wrl8ad1.png",
@@ -401,6 +427,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213635/Ultimate%20Characters/Icons/nidtfbolm0wpkw400auw.png",
@@ -417,6 +444,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Melee", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213769/Ultimate%20Characters/Icons/zpde70pzlkxolgrfbdya.png",
@@ -433,6 +461,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Melee", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213882/Ultimate%20Characters/Icons/pj3iad6leump9k0jx1hj.png",
@@ -449,6 +478,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: [],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213968/Ultimate%20Characters/Icons/j0qwtq8tpcengvaymmce.png",
@@ -465,6 +495,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Melee", "Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595214130/Ultimate%20Characters/Icons/ycqk3kzvmb3todifwfpn.png",
@@ -481,6 +512,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263616/Ultimate%20Characters/Icons/gy3ymahlwvsgptwfrypu.png",
@@ -497,6 +529,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263748/Ultimate%20Characters/Icons/fedzu1dun3ahpda0lwve.png",
@@ -513,6 +546,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263875/Ultimate%20Characters/Icons/zj5eosi1phfoklbcvngg.png",
@@ -529,6 +563,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264033/Ultimate%20Characters/Icons/sgwnmktnr7khqbkqtbah.png",
@@ -545,6 +580,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264211/Ultimate%20Characters/Icons/jgrrjer1mjlsvteav3dh.png",
@@ -561,6 +597,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264393/Ultimate%20Characters/Icons/v5776tdmn4axkpjk46n9.png",
@@ -577,6 +614,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264563/Ultimate%20Characters/Icons/exnw4xwqdqa5zht1xsyf.png",
@@ -593,6 +631,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264862/Ultimate%20Characters/Icons/yvnxrxzchwuctsjprkhc.png",
@@ -609,6 +648,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265008/Ultimate%20Characters/Icons/qewoja1kyygqbcqtj0ty.png",
@@ -625,6 +665,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265199/Ultimate%20Characters/Icons/axcr2z2uhwbzdljdgsk5.png",
@@ -641,6 +682,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265319/Ultimate%20Characters/Icons/i8du3ktijy2ceifcl7rs.png",
@@ -657,6 +699,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265460/Ultimate%20Characters/Icons/r6cduawxidkezml8khdx.png",
@@ -673,6 +716,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265648/Ultimate%20Characters/Icons/v4vmilfphcpdnc1heilp.png",
@@ -689,6 +733,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265813/Ultimate%20Characters/Icons/use8lbowukfewcfzy3il.png",
@@ -705,6 +750,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265939/Ultimate%20Characters/Icons/vaoggp5lxk1qr4wocf2v.png",
@@ -721,6 +767,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl", "SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595266122/Ultimate%20Characters/Icons/vqmqapbk94jdzat6g6tc.png",
@@ -737,6 +784,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["Brawl"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595266237/Ultimate%20Characters/Icons/momtovlmoul2gs5tlenu.png",
@@ -753,6 +801,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595550229/Ultimate%20Characters/Icons/f0a03rl1wrgwfl4rcwwt.png",
@@ -769,6 +818,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595550778/Ultimate%20Characters/Icons/ez6sg3td4pq0o0wcbdoj.png",
@@ -785,6 +835,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551025/Ultimate%20Characters/Icons/xacbfbddsmooqyogsvrc.png",
@@ -801,6 +852,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551321/Ultimate%20Characters/Icons/jszwwl83pbkc2gy7uj0y.png",
@@ -817,6 +869,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551548/Ultimate%20Characters/Icons/e0t8wsr9xruc3c74scke.png",
@@ -833,6 +886,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551923/Ultimate%20Characters/Icons/itsfz1r92y3iqgtm4qvo.png",
@@ -849,6 +903,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Custom",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552332/Ultimate%20Characters/Icons/wzxqsikk2zq9jspwl9bm.png",
@@ -865,6 +920,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Custom",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552434/Ultimate%20Characters/Icons/sc5k2mb8cgfuaqhcsejf.png",
@@ -881,6 +937,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Custom",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552507/Ultimate%20Characters/Icons/wi8suczj7o1wwrfvapn4.png",
@@ -897,6 +954,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552666/Ultimate%20Characters/Icons/rk39ts4tibwb5ne9icou.png",
@@ -913,6 +971,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552783/Ultimate%20Characters/Icons/vzz3x3ssvytgupyp3qog.png",
@@ -929,6 +988,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552922/Ultimate%20Characters/Icons/tloqxpo9hmeovslexn6m.png",
@@ -945,6 +1005,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553030/Ultimate%20Characters/Icons/ggdtogz09jiiu4w3lzwl.png",
@@ -961,6 +1022,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553178/Ultimate%20Characters/Icons/kxm4lzndmj4yxcs1l9hx.png",
@@ -977,6 +1039,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553304/Ultimate%20Characters/Icons/rhbwlrbzfaxoqtokr7yf.png",
@@ -993,6 +1056,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553458/Ultimate%20Characters/Icons/hk7szzdgutkt9u4i8kov.png",
@@ -1008,7 +1072,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553607/Ultimate%20Characters/Icons/ctvo71pqwbljfxucwwsj.png",
@@ -1025,6 +1090,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553876/Ultimate%20Characters/Icons/yk2vhtzoeno1yo34ezng.png",
@@ -1041,6 +1107,7 @@ export const CharacterList = [
   },
   {
     alsoAppearsIn: ["SSB4"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595554138/Ultimate%20Characters/Icons/nman7jnoazuhef5sau0s.png",
@@ -1056,7 +1123,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698333/Ultimate%20Characters/Icons/kxmmeakhmba5pxijb8ay.png",
@@ -1072,7 +1140,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698474/Ultimate%20Characters/Icons/smmkbvyoaazxzjyvl5if.png",
@@ -1088,7 +1157,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698599/Ultimate%20Characters/Icons/czu2zelvmwdktwfnolxt.png",
@@ -1104,7 +1174,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698772/Ultimate%20Characters/Icons/xfp1vgwbrwejst5dmttz.png",
@@ -1120,7 +1191,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698901/Ultimate%20Characters/Icons/zybbki3g0hwmpa6ybb4b.png",
@@ -1136,7 +1208,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Unlockable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699009/Ultimate%20Characters/Icons/s2fdhbzperd5qhvkav6s.png",
@@ -1152,7 +1225,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699149/Ultimate%20Characters/Icons/zwn1q3ctncghuitbybo3.png",
@@ -1168,7 +1242,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699295/Ultimate%20Characters/Icons/clwi7yt9k2thtcs6sfkk.png",
@@ -1184,7 +1259,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699474/Ultimate%20Characters/Icons/nee4ttazorwhvu3xm5ft.png",
@@ -1200,7 +1276,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699735/Ultimate%20Characters/Icons/pzutype0y89ulck3gs3h.png",
@@ -1216,7 +1293,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699847/Ultimate%20Characters/Icons/lynnfsewq7grm3eiygx2.png",
@@ -1232,7 +1310,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699952/Ultimate%20Characters/Icons/aibsspkpveu4yw4fg2xf.png",
@@ -1248,7 +1327,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
@@ -1264,7 +1344,8 @@ export const CharacterList = [
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
@@ -1274,12 +1355,13 @@ export const CharacterList = [
     id: "77",
     series: {
       price: "6.99",
-      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Series/qnwoxcjwqlxxt8sxwfbj.svg",
+      icon: "https://ssb.wiki.gallery/images/0/02/MinecraftSymbol.svg",
       name: "MINECRAFT",
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
@@ -1289,12 +1371,13 @@ export const CharacterList = [
     id: "78",
     series: {
       price: "6.99",
-      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Series/qnwoxcjwqlxxt8sxwfbj.svg",
+      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553876/Series/rsyt1blkqi8raf6uhjky.svg",
       name: "Final Fantasy",
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
@@ -1304,12 +1387,13 @@ export const CharacterList = [
     id: "79",
     series: {
       price: "6.99",
-      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Series/qnwoxcjwqlxxt8sxwfbj.svg",
+      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553030/Series/a1pc0xxngopvv6i8u60k.svg",
       name: "xenoblade chronicles",
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
@@ -1319,12 +1403,13 @@ export const CharacterList = [
     id: "80",
     series: {
       price: "6.99",
-      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Series/qnwoxcjwqlxxt8sxwfbj.svg",
+      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553030/Series/a1pc0xxngopvv6i8u60k.svg",
       name: "xenoblade chronicles",
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
@@ -1334,12 +1419,13 @@ export const CharacterList = [
     id: "81",
     series: {
       price: "6.99",
-      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Series/qnwoxcjwqlxxt8sxwfbj.svg",
+      icon: "https://ssb.wiki.gallery/images/a/a2/TekkenSymbol.svg",
       name: "Tekken",
     },
   },
   {
-    alsoAppearsIn: [],
+    alsoAppearsIn: ["SSBU"],
+    description: "",
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
@@ -1349,7 +1435,7 @@ export const CharacterList = [
     id: "82",
     series: {
       price: "6.99",
-      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Series/qnwoxcjwqlxxt8sxwfbj.svg",
+      icon: "https://ssb.wiki.gallery/images/c/ce/KingdomHeartsSymbol.svg",
       name: "Kingdom Hearts",
     },
   },

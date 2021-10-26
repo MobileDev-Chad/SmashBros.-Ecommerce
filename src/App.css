@@ -4,3 +4,8 @@
 }
 /* End of Navbar */
 
+/* Characters */
+.card img:hover {
+    transform: scale(1.03);
+}
+/* End of Characters */

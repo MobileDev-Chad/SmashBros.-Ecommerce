@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {NavLink} from 'react-router-dom'
 import CharacterList from "../data/CharacterList";
 
 const Characters = () => {
@@ -161,7 +162,7 @@ const Characters = () => {
         </div>
         {CharacterList.filter((characters) => {
           if (franchise === "") {
-            return characters;
+            return CharacterList;
           } else if (franchise === "All") {
             return CharacterList;
           } else if (franchise === characters.availability) {
@@ -178,14 +179,14 @@ const Characters = () => {
                     src={images.portrait}
                     height="275px"
                     className="card-img-top"
-                    alt={series.name}
+                    alt={name}
                   />
                   <div className="card-body">
                     <h5 className="card-title mb-0  fw-bold">{name}</h5>
                     <p className="card-text lead">${series.price}</p>
-                    <a href="#" className="btn btn-outline-dark btn-primary">
-                      Add to Cart
-                    </a>
+                    <NavLink to={`/characters/${id}`} className="btn btn-outline-dark btn-primary">
+                      Buy Now
+                    </NavLink>
                   </div>
                 </div>
               </div>
