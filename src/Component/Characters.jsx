@@ -1,53 +1,190 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import CharacterList from "../data/CharacterList";
 
 const Characters = () => {
+  const [franchise, setFranchise] = useState("");
+
   const ShowCharacters = () => {
     return (
       <>
         <div className="buttons mb-5 pb-5">
-          <button className="btn btn-outline-dark me-1">All</button>
-          <button className="btn btn-outline-dark me-1">Super Mario</button>
-          <button className="btn btn-outline-dark me-1">Donkey Kong</button>
-          <button className="btn btn-outline-dark me-1">
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("All")}
+          >
+            All
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Super Mario")}
+          >
+            Super Mario
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Donkey Kong")}
+          >
+            Donkey Kong
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("The Legend of Zelda")}
+          >
             The Legend of Zelda
           </button>
-          <button className="btn btn-outline-dark me-1">Metroid</button>
-          <button className="btn btn-outline-dark me-1">Yoshi</button>
-          <button className="btn btn-outline-dark me-1">Kirby</button>
-          <button className="btn btn-outline-dark me-1">Star Fox</button>
-          <button className="btn btn-outline-dark me-1">Pokemon</button>
-          <button className="btn btn-outline-dark me-1">Earth Bound</button>
-          <button className="btn btn-outline-dark me-1">F-Zero</button>
-          <button className="btn btn-outline-dark me-1">Ice Climbers</button>
-          <button className="btn btn-outline-dark me-1">Fire Emblem</button>
-          <button className="btn btn-outline-dark me-1">Game & Watch</button>
-          <button className="btn btn-outline-dark me-1">Kid Icarus</button>
-          <button className="btn btn-outline-dark me-1">Wario Ware</button>
-          <button className="btn btn-outline-dark me-1">Metal Gear</button>
-          <button className="btn btn-outline-dark me-1">Sonic</button>
-          <button className="btn btn-outline-dark me-1">Pikmin</button>
-          <button className="btn btn-outline-dark me-1">R.O.B.</button>
-          <button className="btn btn-outline-dark me-1">Animal Crossing</button>
-          <button className="btn btn-outline-dark me-1">Mega Man</button>
-          <button className="btn btn-outline-dark me-1">Wii Fit</button>
-          <button className="btn btn-outline-dark me-1">Punch-Out!!</button>
-          <button className="btn btn-outline-dark me-1">Downloadable</button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Metroid")}
+          >
+            Metroid
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Yoshi")}
+          >
+            Yoshi
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Kirby")}
+          >
+            Kirby
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Star Fox")}
+          >
+            Star Fox
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Pokemon")}
+          >
+            Pokemon
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("EarthBound")}
+          >
+            EarthBound
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("F-Zero")}
+          >
+            F-Zero
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Ice Climbers")}
+          >
+            Ice Climbers
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Fire Emblem")}
+          >
+            Fire Emblem
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Game & Watch")}
+          >
+            Game & Watch
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Kid Icarus")}
+          >
+            Kid Icarus
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Wario Ware")}
+          >
+            Wario Ware
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Metal Gear")}
+          >
+            Metal Gear
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Sonic")}
+          >
+            Sonic
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Pikmin")}
+          >
+            Pikmin
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("R.O.B.")}
+          >
+            R.O.B.
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Animal Crossing")}
+          >
+            Animal Crossing
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Mega Man")}
+          >
+            Mega Man
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Wii Fit")}
+          >
+            Wii Fit
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Punch-Out!!")}
+          >
+            Punch-Out!!
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Downloadable")}
+          >
+            Downloadable
+          </button>
         </div>
-        {CharacterList.map(({id, images, name, series}) => {
+        {CharacterList.filter((characters) => {
+          if (franchise === "") {
+            return characters;
+          } else if (franchise === "All") {
+            return CharacterList;
+          } else if (franchise === characters.availability) {
+            return characters;
+          } else if (franchise === characters.series.name) {
+            return characters;
+          }
+        }).map(({ id, images, name, series }) => {
           return (
             <>
-              <div className="col-md-3">
-                <div className="card" key={id}>
-                  <img src={images.portrait} height="275px"className="card-img-top" alt={series.name} />
+              <div className="col-md-3 mb-4">
+                <div className="card h-100 text-center p-4" key={id}>
+                  <img
+                    src={images.portrait}
+                    height="275px"
+                    className="card-img-top"
+                    alt={series.name}
+                  />
                   <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" className="btn btn-primary">
-                      Go somewhere
+                    <h5 className="card-title mb-0  fw-bold">{name}</h5>
+                    <p className="card-text lead">${series.price}</p>
+                    <a href="#" className="btn btn-outline-dark btn-primary">
+                      Add to Cart
                     </a>
                   </div>
                 </div>
