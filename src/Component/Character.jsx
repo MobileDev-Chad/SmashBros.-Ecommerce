@@ -1,25 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { addItem } from "../redux/action";
 import { useParams } from "react-router-dom";
-import {NavLink} from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 import CharacterList from "../data/CharacterList";
 
 const Character = () => {
   const { id } = useParams();
-  //     const [character, setCharacter] = useState([]);
 
-  //    const { id, images, name, series } = CharacterList;
-  //  useEffect(() => {
-
-  //  }, [input])
-
-  const ShowCharacter = () => {
+  const dispatch = useDispatch();
+  const addCharacter = (character) => {
+    dispatch(addItem(character));
+  };
+  const ShowCharacter = ({character}) => {
     return (
       <>
         {CharacterList.filter((characters) => {
           if (id === characters.id) {
             return CharacterList;
           }
-        }).map(({ id, images, name, series,description }) => {
+        }).map(({ id, images, name, series, description }) => {
           return (
             <>
               <div className="col-md-6" key={id}>
@@ -38,7 +38,10 @@ const Character = () => {
                 <h1 className="display-5">{name}</h1>
                 <h3 className="display-6 fw-bold my-4">$ {series.price}</h3>
                 <p className="lead">{description}</p>
-                <button className="btn btn-outline-dark btn-primary px-4 py-2">
+                <button
+                  className="btn btn-outline-dark btn-primary px-4 py-2"
+                   onClick={() => addCharacter(character)}
+                >
                   Add to Cart
                 </button>
                 <NavLink to="/cart" className="btn btn-dark ms-2 px-3 py-2">
