@@ -1,7 +1,3 @@
-const inisialState = {
-  cardData: [],
-};
-
 const addItems = (state = [], action) => {
   switch (action.type) {
     case "ADDITEM":
