@@ -1,22 +1,20 @@
-const addItem = [];
+const inisialState = {
+  cardData: [],
+};
 
-const addItems = (state = addItem, action) => {
-    switch (action.type) {
-        case "ADDITEM" : return [
-            ...state,
-            action.payload
-        ]
-        break;
+const addItems = (state = [], action) => {
+  switch (action.type) {
+    case "ADDITEM":
+      return [...state, action.data];
 
-        case "DELITEM" :
-            return state = state.filter((x)=>{
-                return x.id !== action.payload.id
-            })
-        break;
+    case "DELITEM":
+      state.pop();
 
-        default: return state;
-        break;
-    }
-}
+      return [...state];
+
+    default:
+      return state;
+  }
+};
 
 export default addItems;

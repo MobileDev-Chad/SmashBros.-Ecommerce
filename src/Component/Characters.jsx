@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import {NavLink} from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import CharacterList from "../data/CharacterList";
 
 const Characters = () => {
@@ -9,7 +9,7 @@ const Characters = () => {
   const ShowCharacters = () => {
     return (
       <>
-        <div className="buttons mb-5 pb-5">
+        <div className="buttons mb-5 pb-5" align="center">
           <button
             className="btn btn-outline-dark me-1"
             onClick={() => setFranchise("All")}
@@ -144,6 +144,12 @@ const Characters = () => {
           </button>
           <button
             className="btn btn-outline-dark me-1"
+            onClick={() => setFranchise("Xenoblade Chronicles")}
+          >
+            Xenoblade Chronicles
+          </button>
+          <button
+            className="btn btn-outline-dark me-1"
             onClick={() => setFranchise("Wii Fit")}
           >
             Wii Fit
@@ -170,6 +176,8 @@ const Characters = () => {
             return characters;
           } else if (franchise === characters.series.name) {
             return characters;
+          } else if (franchise === characters.series.icon) {
+            return characters;
           }
         }).map(({ id, images, name, series }) => {
           return (
@@ -185,7 +193,10 @@ const Characters = () => {
                   <div className="card-body">
                     <h5 className="card-title mb-0  fw-bold">{name}</h5>
                     <p className="card-text lead">${series.price}</p>
-                    <NavLink to={`/characters/${id}`} className="btn btn-outline-dark btn-primary">
+                    <NavLink
+                      to={`/characters/${id}`}
+                      className="btn btn-primary btn-outline-dark "
+                    >
                       Buy Now
                     </NavLink>
                   </div>
@@ -203,6 +214,7 @@ const Characters = () => {
         <div className="row">
           <div className="col-12 mb-5">
             <h1 className="display-6 fw-bolder text-center">Characters</h1>
+            
             <hr />
           </div>
         </div>

@@ -22,8 +22,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Characters />
-    </div>
+          </div>
   );
 };
 

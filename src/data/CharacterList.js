@@ -1428,13 +1428,14 @@ export const CharacterList = [
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
-      portrait: "https://ssb.wiki.gallery/images/3/3a/Steve_SSBU.png",
+      portrait:
+        "https://https://res.cloudinary.com/dare4cvkk/image/upload/v1635344840/Steve/Steve_SSBU_cljrdl.png",
     },
     name: "Steve",
     id: "77",
     series: {
       price: "6.99",
-      icon: "https://ssb.wiki.gallery/images/0/02/MinecraftSymbol.svg",
+      icon: "https://res.cloudinary.com/dare4cvkk/image/upload/v1635344820/Steve/MinecraftSymbol_bzvnuh.svg",
       name: "MINECRAFT",
     },
   },
@@ -1445,7 +1446,8 @@ export const CharacterList = [
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
-      portrait: "https://ssb.wiki.gallery/images/4/49/Sephiroth_SSBU.png",
+      portrait:
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1635344899/Sephiroth/Sephiroth_SSBU_vvwan4.png",
     },
     name: "Sephiroth",
     id: "78",
@@ -1462,14 +1464,15 @@ export const CharacterList = [
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
-      portrait: "https://ssb.wiki.gallery/images/e/ec/Pyra_SSBU.png",
+      portrait:
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1635344959/Pyra/Pyra_SSBU_pqq6wu.png",
     },
     name: "Pyra",
     id: "79",
     series: {
       price: "6.99",
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553030/Series/a1pc0xxngopvv6i8u60k.svg",
-      name: "xenoblade chronicles",
+      name: "Xenoblade Chronicles",
     },
   },
   {
@@ -1479,14 +1482,15 @@ export const CharacterList = [
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
-      portrait: "https://ssb.wiki.gallery/images/5/58/Mythra_SSBU.png",
+      portrait:
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1635345224/Mythra/Mythra_SSBU_tlgosi.png",
     },
     name: "Mythra",
     id: "80",
     series: {
       price: "6.99",
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553030/Series/a1pc0xxngopvv6i8u60k.svg",
-      name: "xenoblade chronicles",
+      name: "Xenoblade Chronicles",
     },
   },
   {
@@ -1496,13 +1500,14 @@ export const CharacterList = [
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
-      portrait: "https://ssb.wiki.gallery/images/d/d9/Kazuya_SSBU.png",
+      portrait:
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1635345263/Kazuya/Kazuya_SSBU_wefhri.png",
     },
     name: "Kazuya",
     id: "81",
     series: {
       price: "6.99",
-      icon: "https://ssb.wiki.gallery/images/a/a2/TekkenSymbol.svg",
+      icon: "https://res.cloudinary.com/dare4cvkk/image/upload/v1635345280/Kazuya/TekkenSymbol_urnhuy.svg",
       name: "Tekken",
     },
   },
@@ -1513,13 +1518,14 @@ export const CharacterList = [
     availability: "Downloadable",
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
-      portrait: "https://ssb.wiki.gallery/images/2/2d/Sora_SSBU.png",
+      portrait:
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1635345321/Sora/Sora_SSBU_zboxyr.png",
     },
     name: "Sora",
     id: "82",
     series: {
       price: "6.99",
-      icon: "https://ssb.wiki.gallery/images/c/ce/KingdomHeartsSymbol.svg",
+      icon: "https://res.cloudinary.com/dare4cvkk/image/upload/v1635345332/Sora/KingdomHeartsSymbol_kljquu.svg",
       name: "Kingdom Hearts",
     },
   },
