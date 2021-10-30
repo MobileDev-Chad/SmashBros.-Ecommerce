@@ -1429,7 +1429,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
       portrait:
-        "https://https://res.cloudinary.com/dare4cvkk/image/upload/v1635344840/Steve/Steve_SSBU_cljrdl.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1635344840/Steve/Steve_SSBU_cljrdl.png",
     },
     name: "Steve",
     id: "77",

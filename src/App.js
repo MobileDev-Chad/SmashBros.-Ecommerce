@@ -8,6 +8,7 @@ import Contact from "./Component/Contact";
 import Cart from "./Component/Cart";
 import { Switch, Route } from "react-router-dom";
 
+
 const App = () => {
   return (
     <>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addItem, delItem } from "../redux/action";
 import { useParams } from "react-router-dom";
@@ -24,6 +24,10 @@ const CharacterInfo = () => {
       setCartBtn("Add to Cart");
     }
   };
+
+  
+
+
 
   const ShowCharacter = ({ character }) => {
     return (
