@@ -7,7 +7,7 @@ export const CharacterList = [
     availability: 'Starter',
     images: {
       icon: 'https://res.cloudinary.com/dfen7mkm8/image/upload/q_auto:low/v1594501674/Ultimate%20Characters/Icons/120px-MarioHeadSSBUWebsite_hkzzpq.png',
-      portrait: ('../assets/images/Mario.png'),
+      portrait: '../assets/images/Mario.png',
     },
     name: 'Mario',
     id: '1',
