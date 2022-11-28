@@ -3,7 +3,7 @@ import Characters from "./Characters";
 
 const Home = () => {
   return (
-    <div className="hero" id="home">
+    <section className="hero" id="home">
       <div className="card bg-dark text-white border-0 ">
         <img
           src="/assets/bg.jpg"
@@ -22,7 +22,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-          </div>
+          </section>
   );
 };
 

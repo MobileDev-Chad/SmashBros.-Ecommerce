@@ -9,7 +9,7 @@ const Characters = () => {
   const ShowCharacters = () => {
     return (
       <>
-        <div className="buttons mb-5 pb-5" align="center">
+        <section className="buttons mb-5 pb-5" align="center">
           <button
             className="btn btn-outline-dark me-1"
             onClick={() => setFranchise("All")}
@@ -166,7 +166,7 @@ const Characters = () => {
           >
             Downloadable
           </button>
-        </div>
+        </section>
         {CharacterList.filter((characters) => {
           if (franchise === "") {
             return CharacterList;
