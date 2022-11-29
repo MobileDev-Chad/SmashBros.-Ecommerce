@@ -14,7 +14,6 @@ const getTotalQuantity = () => {
   return total
 }
 
-  const {amount} = useSelector((state) => state.cart);
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
@@ -69,8 +68,8 @@ const getTotalQuantity = () => {
                 <i className="fa fa-user-plus me-1"></i> Register
               </NavLink>
               <NavLink to="/cart" className="btn btn-outline-dark ms-2">
-                <i className="fa fa-shopping-cart me-1"></i> Cart (
-                  {getTotalQuantity() || 0})
+                <i className="fa fa-shopping-cart me-1"></i> Cart 
+                  {getTotalQuantity() || 0}
               </NavLink>
             </div>
           </div>

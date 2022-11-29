@@ -1,14 +1,16 @@
-import CartItem from './CartItem';
-import Total from './Total'
+// import CartItem from './CartItem';
+// import Total from './Total'
 import { useSelector } from 'react-redux'
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
 
-  <div className="cart__left">
+  return (
+    <>
+    <div className="col-md 5 d-flex justify-content-center">
   <div>
-    <h3>Shopping Cart</h3>
-    {cart?.map((item) => (
+    <h3 className="mt-5">Shopping Cart</h3>
+    {/* {cart?.map((item) => (
       <CartItem
         key={item.id}
         id={item.id}
@@ -17,14 +19,16 @@ const Cart = () => {
         price={item.series.price} 
         quantity={item.quantity}
       />
-    ))}
+    ))} */}
   </div>
 
-  <div className="cart__right">
+  {/* <div className="cart__right">
         <Total/>
-      </div>
+      </div> */}
 
 </div>
+    </>
+  )
 
 };
 
