@@ -1,8 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
+
 const Navbar = () => {
-  const state = useSelector((state) => state.addItem);
+
+const cart = useSelector((state) => state.cart)
+
+const getTotalQuantity = () => {
+  let total = 0
+  cart.forEach(item => {
+    total += item.quantity
+  })
+  return total
+}
+
+  const {amount} = useSelector((state) => state.cart);
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
@@ -58,7 +70,7 @@ const Navbar = () => {
               </NavLink>
               <NavLink to="/cart" className="btn btn-outline-dark ms-2">
                 <i className="fa fa-shopping-cart me-1"></i> Cart (
-                {state.length})
+                  {getTotalQuantity() || 0})
               </NavLink>
             </div>
           </div>

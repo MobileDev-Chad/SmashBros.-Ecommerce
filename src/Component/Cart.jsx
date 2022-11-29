@@ -1,38 +1,31 @@
-import React from 'react'
+import CartItem from './CartItem';
+import Total from './Total'
 import { useSelector } from 'react-redux'
-import { useDispatch } from 'react-redux'
-// import {delItem} from '../redux/actions/index'
 
 const Cart = () => {
-  const state = useSelector((state) => state.addItem);
-  const dispatch = useDispatch();
+  const cart = useSelector((state) => state.cart);
 
-  const cartItems = (cartItem) => {
-    return (
-      <section className="px-4 my-5 bg-light rounded-3" key={cartItem.id} >
-        <div className=" py-4">
-          <button className="btn-close float-end" aria-label="Close">
-            <div className="row justify-content-center">
-              <div className="col-md-4">
-                  <img
-                  src={cartItem.images.portrait}
-                  alt={cartItem.name}
-                  height="200px"
-                  width="200px"
-                />  
-              </div>
-              <div className="col-md-4">
-                <h3></h3>
-                <p></p>
-              </div>
-            </div>
-          </button>
-        </div>
-      </section>
-    );
-  };
+  <div className="cart__left">
+  <div>
+    <h3>Shopping Cart</h3>
+    {cart?.map((item) => (
+      <CartItem
+        key={item.id}
+        id={item.id}
+        image={item.images.portrait}
+        name={item.name}
+        price={item.series.price} 
+        quantity={item.quantity}
+      />
+    ))}
+  </div>
 
-  return <>{state.length !== 0 && state.map(cartItems)}</>;
+  <div className="cart__right">
+        <Total/>
+      </div>
+
+</div>
+
 };
 
 export default Cart;

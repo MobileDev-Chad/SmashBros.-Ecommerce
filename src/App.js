@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import "./App.css";
 import Navbar from "./Component/Navbar";
 import Home from "./Component/Home";
@@ -8,8 +9,8 @@ import Contact from "./Component/Contact";
 import Cart from "./Component/Cart";
 import { Switch, Route } from "react-router-dom";
 
-
 const App = () => {
+
   return (
     <>
       {" "}

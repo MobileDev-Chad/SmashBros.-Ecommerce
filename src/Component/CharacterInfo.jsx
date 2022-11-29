@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addItem, delItem } from "../redux/action";
 import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import CharacterList from "../data/CharacterList";
+import { addToCart, removeItem } from "../redux/cartSlice";
 
 const CharacterInfo = () => {
   const { id } = useParams();
@@ -14,26 +14,22 @@ const CharacterInfo = () => {
 
   const cName = cartBtn === "Add to Cart" ? "primary" : "danger";
 
-  const handleCart = (character) => {
+  const handleCart = ({ id, images, name, series }) => {
     if (cartBtn === "Add to Cart") {
-      dispatch(addItem(character));
-      setCartBtn("Remove from Cart");
-
+      dispatch(addToCart({ id, images, name, series }));
+      setCartBtn("Remove from Cart") 
     } else {
-      dispatch(delItem(character));
-      setCartBtn("Add to Cart");
+      dispatch(removeItem(id));
+      setCartBtn("Add to Cart")
     }
   };
 
-  
 
-
-
-  const ShowCharacter = ({ character }) => {
+  const ShowCharacter = () => {
     return (
       <>
-        {CharacterList.filter((characters) => {
-          if (id === characters.id) {
+        {CharacterList.filter((character) => {
+          if (id === character.id) {
             return CharacterList;
           }
         }).map(({ id, images, name, series, description }) => {
@@ -57,7 +53,7 @@ const CharacterInfo = () => {
                 <p className="lead">{description}</p>
                 <button
                   className={`btn btn-outline-dark btn-${cName} px-4 py-2`}
-                  onClick={() => handleCart(character)}
+                  onClick={() => handleCart({id, images, name, series})}
                 >
                   {cartBtn}
                 </button>

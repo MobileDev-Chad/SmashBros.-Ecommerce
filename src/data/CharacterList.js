@@ -7,7 +7,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501674/Ultimate%20Characters/Icons/120px-MarioHeadSSBUWebsite_hkzzpq.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501176/Ultimate%20Characters/Portraits/350_emjsmz.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681170/Smash%20Characters/1_-_COpBEoN_nnetew.png",
     },
     name: "Mario",
     id: "1",
@@ -25,7 +25,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501698/Ultimate%20Characters/Icons/120px-DonkeyKongHeadSSBUWebsite_h8qz9i.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501254/Ultimate%20Characters/Portraits/350_xvyuzj.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681132/Smash%20Characters/17_-_0yB7AN0_seodip.png",
     },
     name: "Donkey Kong",
     id: "2",
@@ -43,13 +43,13 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501722/Ultimate%20Characters/Icons/120px-LinkHeadSSBUWebsite_pzo2jz.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501273/Ultimate%20Characters/Portraits/350_shjp6c.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681201/Smash%20Characters/11_-_fcCLhoC_dietap.png",
     },
     name: "Link",
     id: "3",
     series: {
       price: "4.99",
-      icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501930/Series/the-legend-of-zelda_naf34b.svg",
+      icon: "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681201/Smash%20Characters/11_-_fcCLhoC_dietap.png",
       name: "The Legend of Zelda",
     },
   },
@@ -61,7 +61,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595194655/Ultimate%20Characters/Icons/i5rvljkpajr2rqkflkmm.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595194655/Ultimate%20Characters/Portraits/sxfhg6ua3cnjsyq3gc9f.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681146/Smash%20Characters/20_-_750ewxI_duv0uz.png",
     },
     name: "Samus",
     id: "4",
@@ -79,7 +79,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595196410/Ultimate%20Characters/Icons/sjopx966kkczkijelpim.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595196410/Ultimate%20Characters/Portraits/kr63y9f7yp5e5kruz4i5.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681679/Smash%20Characters/1200px-Dark_Samus_SSBU_bbve5b.png",
     },
     name: "Dark Samus",
     id: "04",
@@ -97,7 +97,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595197033/Ultimate%20Characters/Icons/yzfsd5sz2h6izdgre4ub.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595197033/Ultimate%20Characters/Portraits/lfacckrdfx7im91l9j3c.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681175/Smash%20Characters/9_-_OCgW1vA_fy6i5b.png",
     },
     name: "Yoshi",
     id: "5",
@@ -115,7 +115,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198280/Ultimate%20Characters/Icons/b3xbw1uwuhubocyibecv.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198281/Ultimate%20Characters/Portraits/p3tjm5u0xgudqshhwtim.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681121/Smash%20Characters/27_-_uNLkdnX_qgslbw.png",
     },
     name: "Kirby",
     id: "6",
@@ -133,7 +133,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198574/Ultimate%20Characters/Icons/ahaz2u4oaenmzgqhrpz6.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198575/Ultimate%20Characters/Portraits/qbkb5opug43mzizb2oct.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681135/Smash%20Characters/24_-_CwxHupi_gu8e0k.png",
     },
     name: "Fox",
     id: "7",
@@ -151,7 +151,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Ultimate%20Characters/Icons/o07zv6beydfx0erkavfk.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595198731/Ultimate%20Characters/Portraits/p3sq8dqdbks9cid5vmsi.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681120/Smash%20Characters/32_-_0BXlsxH_ow20cj.png",
     },
     name: "Pikachu",
     id: "8",
@@ -169,7 +169,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199027/Ultimate%20Characters/Icons/bhciash4n90qbxy4bu3e.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199028/Ultimate%20Characters/Portraits/m7dhe7mnktqp3n5lurch.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681169/Smash%20Characters/2_-_iekHvmd_fieeja.png",
     },
     name: "Luigi",
     id: "9",
@@ -187,7 +187,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199211/Ultimate%20Characters/Icons/eyzbbk2u1upzrfuxzpxo.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199211/Ultimate%20Characters/Portraits/gfg3wvlrdsrf88mxc5ic.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681121/Smash%20Characters/23_-_5mmEMo9_nqxwn3.png",
     },
     name: "Ness",
     id: "10",
@@ -205,7 +205,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199362/Ultimate%20Characters/Icons/oeseikgvv04jdik1m47l.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199363/Ultimate%20Characters/Portraits/wtyd8jydn6ergiibkeao.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681187/Smash%20Characters/52_-_BGWqNaz_szspue.png",
     },
     name: "Captain Falcon",
     id: "11",
@@ -223,7 +223,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199643/Ultimate%20Characters/Icons/vgbgm6ao6yrpfae0chmk.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595199643/Ultimate%20Characters/Portraits/v78njmwrkrrgy8eqvucr.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681120/Smash%20Characters/36_-_xqYMNim_vmmz9u.png",
     },
     name: "Jigglypuff",
     id: "12",
@@ -241,7 +241,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595210915/Ultimate%20Characters/Icons/adenccvsngq5mmxtgg6c.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595210915/Ultimate%20Characters/Portraits/nomhtoslkqvg2dv8cp1b.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681171/Smash%20Characters/3_-_7HxqJK8_encord.png",
     },
     name: "Peach",
     id: "13",
@@ -259,7 +259,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211071/Ultimate%20Characters/Icons/yzrulx2ixqfuktvsslwc.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211071/Ultimate%20Characters/Portraits/hxdttho9vmxtvonegb9a.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681172/Smash%20Characters/4_-_Pt3mhVq_mqosjj.png",
     },
     name: "Daisy",
     id: "013",
@@ -277,7 +277,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211321/Ultimate%20Characters/Icons/ku5bfpewtw5qvvxrbbyc.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211322/Ultimate%20Characters/Portraits/mhiwpew9s16lnu3hhvko.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681178/Smash%20Characters/7_-_r2BC0Km_aydqhn.png",
     },
     name: "Bowser",
     id: "14",
@@ -295,7 +295,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211554/Ultimate%20Characters/Icons/f0x0erel0h87cko9qgyl.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211555/Ultimate%20Characters/Portraits/nai1earjicsx8llq6lso.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681197/Smash%20Characters/60_-_eb1YFvB_ofq8tb.png",
     },
     name: "Ice Climbers",
     id: "15",
@@ -313,7 +313,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211924/Ultimate%20Characters/Icons/kxacuatj0g1lhvawmlib.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595211925/Ultimate%20Characters/Portraits/vidxewxyagvq6t6o9tpd.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681201/Smash%20Characters/13_-_VFM1WFL_i5icrm.png",
     },
     name: "Sheik",
     id: "16",
@@ -331,7 +331,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212046/Ultimate%20Characters/Icons/yl8te2a0y3k9tuhs2onr.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212046/Ultimate%20Characters/Portraits/lflkm8btxjnk6ueh4vic.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681198/Smash%20Characters/12_-_8gp7fMQ_ytkfbq.png",
     },
     name: "Zelda",
     id: "17",
@@ -349,7 +349,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212315/Ultimate%20Characters/Icons/wz4wmoj8ky5wbdsxfz9l.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212316/Ultimate%20Characters/Portraits/hxgmpup4gfavliwnv6gy.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681178/Smash%20Characters/10_-_qUoOVMP_b8sxll.png",
     },
     name: "Dr. Mario",
     id: "18",
@@ -367,7 +367,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212716/Ultimate%20Characters/Icons/h1tn2ec517gvnvze1jns.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212716/Ultimate%20Characters/Portraits/k7aka7yemcuwl1leeg8f.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681120/Smash%20Characters/34_-_2A9gYGk_ruiwv9.png",
     },
     name: "Pichu",
     id: "19",
@@ -385,7 +385,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212959/Ultimate%20Characters/Icons/g7chnuctc9jy3jclrnuf.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595212959/Ultimate%20Characters/Portraits/kem6gbr0q4gbzfvhyt1c.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681128/Smash%20Characters/25_-_2olIF0E_jj3rmi.png",
     },
     name: "Falco",
     id: "20",
@@ -403,7 +403,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213106/Ultimate%20Characters/Icons/hcz3nbywrdgd1zgu5lvg.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213106/Ultimate%20Characters/Portraits/npcnj4xxf8dxdam0ddjf.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681152/Smash%20Characters/45_-_ScbTdFU_yb58qj.png",
     },
     name: "Marth",
     id: "21",
@@ -421,7 +421,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213224/Ultimate%20Characters/Icons/qfucv1c7wobimkzaltwl.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213224/Ultimate%20Characters/Portraits/lykaxbghjrmoawddzoqp.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681153/Smash%20Characters/42_-_hQQPRYG_umjzp0.png",
     },
     name: "Lucina",
     id: "021",
@@ -439,7 +439,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213463/Ultimate%20Characters/Icons/ratlejqm8xek4wrl8ad1.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213463/Ultimate%20Characters/Portraits/cmjge0b0jn0qfmbcholx.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681119/Smash%20Characters/15_-_ElSqjv2_hswzzt.png",
     },
     name: "Young Link",
     id: "22",
@@ -457,7 +457,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213635/Ultimate%20Characters/Icons/nidtfbolm0wpkw400auw.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213636/Ultimate%20Characters/Portraits/xjhyn8kfuxttx2jlb5io.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681206/Smash%20Characters/14_-_viJ4MfO_pfmbl7.png",
     },
     name: "Ganondorf",
     id: "23",
@@ -475,7 +475,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213769/Ultimate%20Characters/Icons/zpde70pzlkxolgrfbdya.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213769/Ultimate%20Characters/Portraits/qc2lkajqhz6hj5jywivf.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681124/Smash%20Characters/35_-_h7fqc5N_yqdbza.png",
     },
     name: "Mewtwo",
     id: "24",
@@ -493,7 +493,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213882/Ultimate%20Characters/Icons/pj3iad6leump9k0jx1hj.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213883/Ultimate%20Characters/Portraits/xsk9svjgz63vzbd9nec7.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681160/Smash%20Characters/40_-_ej7X9t6_mcex0y.png",
     },
     name: "Roy",
     id: "25",
@@ -511,7 +511,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213968/Ultimate%20Characters/Icons/j0qwtq8tpcengvaymmce.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595213968/Ultimate%20Characters/Portraits/wddc8fbxlsp5ylgotefk.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1651364621/Smash%20Characters/wddc8fbxlsp5ylgotefk_nscdko.png",
     },
     name: "Chrom",
     id: "025",
@@ -529,7 +529,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595214130/Ultimate%20Characters/Icons/ycqk3kzvmb3todifwfpn.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595214130/Ultimate%20Characters/Portraits/v5f11c54nri83lypnfci.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681156/Smash%20Characters/55_-_1ajCFFm_zjythe.png",
     },
     name: "Mr. Game & Watch",
     id: "26",
@@ -547,7 +547,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263616/Ultimate%20Characters/Icons/gy3ymahlwvsgptwfrypu.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263616/Ultimate%20Characters/Portraits/n0etle8sayrzcbps0fww.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681152/Smash%20Characters/28_-_TN3hpHE_ridhji.png",
     },
     name: "Meta Knight",
     id: "27",
@@ -565,7 +565,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263748/Ultimate%20Characters/Icons/fedzu1dun3ahpda0lwve.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263748/Ultimate%20Characters/Portraits/lzkefv3rrcflzyocjdyu.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681133/Smash%20Characters/37_-_RQ8j8kx_dvmahx.png",
     },
     name: "Pit",
     id: "28",
@@ -583,7 +583,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263875/Ultimate%20Characters/Icons/zj5eosi1phfoklbcvngg.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595263876/Ultimate%20Characters/Portraits/elttvd94sgqjdwgpt0ck.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681142/Smash%20Characters/38_-_1sWVWIY_aqoozr.png",
     },
     name: "Dark Pit",
     id: "028",
@@ -601,7 +601,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264033/Ultimate%20Characters/Icons/sgwnmktnr7khqbkqtbah.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264033/Ultimate%20Characters/Portraits/s3fytj9hx7tx1kkwjk6c.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681145/Smash%20Characters/19_-_64ADI85_jcgrl7.png",
     },
     name: "Zero Suit Samus",
     id: "29",
@@ -619,7 +619,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264211/Ultimate%20Characters/Icons/jgrrjer1mjlsvteav3dh.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264211/Ultimate%20Characters/Portraits/xmp0v3wncsxnasiphzmr.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681177/Smash%20Characters/6_-_XCoRL8G_qiiu5g.png",
     },
     name: "Wario",
     id: "30",
@@ -637,7 +637,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264393/Ultimate%20Characters/Icons/v5776tdmn4axkpjk46n9.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264393/Ultimate%20Characters/Portraits/kfyqirdu6ljgrt4kfi7l.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681191/Smash%20Characters/47_-_AAsXOdy_jw1ydr.png",
     },
     name: "Snake",
     id: "31",
@@ -655,7 +655,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264563/Ultimate%20Characters/Icons/exnw4xwqdqa5zht1xsyf.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264564/Ultimate%20Characters/Portraits/xcaa2mfjcxgoldfq19q2.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681189/Smash%20Characters/43_-_1ensS6F_tr4y9l.png",
     },
     name: "Ike",
     id: "32",
@@ -673,7 +673,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264862/Ultimate%20Characters/Icons/yvnxrxzchwuctsjprkhc.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595264862/Ultimate%20Characters/Portraits/posqzvrhabawj0tq0mcc.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681140/Smash%20Characters/30_-_VJnjXvC_dudjca.png",
     },
     name: "Pokemon Trainer",
     id: "33-35",
@@ -691,7 +691,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265008/Ultimate%20Characters/Icons/qewoja1kyygqbcqtj0ty.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265008/Ultimate%20Characters/Portraits/w1afvrdq7sktkrfiykym.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681126/Smash%20Characters/18_-_LTOhRiE_zvabxz.png",
     },
     name: "Diddy Kong",
     id: "36",
@@ -709,7 +709,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265199/Ultimate%20Characters/Icons/axcr2z2uhwbzdljdgsk5.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265199/Ultimate%20Characters/Portraits/qtggzoawqah3ban806xy.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681124/Smash%20Characters/22_-_pkjBHYB_qjkb1c.png",
     },
     name: "Lucas",
     id: "37",
@@ -727,7 +727,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265319/Ultimate%20Characters/Icons/i8du3ktijy2ceifcl7rs.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265319/Ultimate%20Characters/Portraits/bayu9owdiwzcrlasy1iy.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681154/Smash%20Characters/46_-_BFJxonu_a6ciqn.png",
     },
     name: "Sonic",
     id: "38",
@@ -745,7 +745,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265460/Ultimate%20Characters/Icons/r6cduawxidkezml8khdx.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265460/Ultimate%20Characters/Portraits/hmktwybifvwap6oys1pv.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681135/Smash%20Characters/29_-_cdVmzkl_jvzqnn.png",
     },
     name: "King Dedede",
     id: "39",
@@ -763,7 +763,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265648/Ultimate%20Characters/Icons/v4vmilfphcpdnc1heilp.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265648/Ultimate%20Characters/Portraits/jdz3vjh92l0dvvlblftz.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681165/Smash%20Characters/63_-_uEH4h6R_grqygi.png",
     },
     name: "Olimar",
     id: "40",
@@ -781,7 +781,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265813/Ultimate%20Characters/Icons/use8lbowukfewcfzy3il.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265813/Ultimate%20Characters/Portraits/bem98aanh5cmmod89rkn.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681133/Smash%20Characters/33_-_c8QHD2B_tg8usk.png",
     },
     name: "Lucario",
     id: "41",
@@ -799,7 +799,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265939/Ultimate%20Characters/Icons/vaoggp5lxk1qr4wocf2v.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595265939/Ultimate%20Characters/Portraits/xrjqrboevnaqshifiv3o.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681162/Smash%20Characters/57_-_4xlfd9D_rw5wfp.png",
     },
     name: "R.O.B.",
     id: "42",
@@ -817,7 +817,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595266122/Ultimate%20Characters/Icons/vqmqapbk94jdzat6g6tc.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595266122/Ultimate%20Characters/Portraits/wbkqc0axgaycid4pw3t5.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681118/Smash%20Characters/16_-_Y5eyFeQ_wq88wq.png",
     },
     name: "Toon Link",
     id: "43",
@@ -835,7 +835,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595266237/Ultimate%20Characters/Icons/momtovlmoul2gs5tlenu.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595266237/Ultimate%20Characters/Portraits/xn93cs0tlzqppjfxbmzr.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681132/Smash%20Characters/26_-_igYtu49_spgtki.png",
     },
     name: "Wolf",
     id: "44",
@@ -853,7 +853,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595550229/Ultimate%20Characters/Icons/f0a03rl1wrgwfl4rcwwt.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595550229/Ultimate%20Characters/Portraits/ogq7qagiegfnzacycjzh.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681150/Smash%20Characters/48_-_WWHvHmN_jhpqr7.png",
     },
     name: "Villager",
     id: "45",
@@ -871,7 +871,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595550778/Ultimate%20Characters/Icons/ez6sg3td4pq0o0wcbdoj.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595550778/Ultimate%20Characters/Portraits/qprodrtlb9ghspa5zsfv.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681161/Smash%20Characters/58_-_N4nM951_x5chd1.png",
     },
     name: "Mega Man",
     id: "46",
@@ -889,7 +889,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551025/Ultimate%20Characters/Icons/xacbfbddsmooqyogsvrc.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551025/Ultimate%20Characters/Portraits/daupvn4papsvavanburo.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681169/Smash%20Characters/62_-_gDmiB4t_lfj1al.png",
     },
     name: "Wii Fit Trainer",
     id: "47",
@@ -907,7 +907,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551321/Ultimate%20Characters/Icons/jszwwl83pbkc2gy7uj0y.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551321/Ultimate%20Characters/Portraits/amddqr6zon89isvaqdcv.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681178/Smash%20Characters/5_-_RBSg4vt_pa1i6z.png",
     },
     name: "Rosalina & Luma",
     id: "48",
@@ -925,7 +925,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551548/Ultimate%20Characters/Icons/e0t8wsr9xruc3c74scke.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551548/Ultimate%20Characters/Portraits/uopduvfseblyedx0zjds.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681168/Smash%20Characters/61_-_hlMAsm0_hxzfmg.png",
     },
     name: "Little Mac",
     id: "49",
@@ -943,7 +943,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551923/Ultimate%20Characters/Icons/itsfz1r92y3iqgtm4qvo.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595551923/Ultimate%20Characters/Portraits/ysam1s1lg2ax3gp9p4yo.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681127/Smash%20Characters/31_-_8ibZ4qg_x9oqyy.png",
     },
     name: "Greninja",
     id: "50",
@@ -961,7 +961,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552332/Ultimate%20Characters/Icons/wzxqsikk2zq9jspwl9bm.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552332/Ultimate%20Characters/Portraits/kaqqtd0dfkfckpy9zwof.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669683351/Smash%20Characters/Mii_Brawler_SSBU_ioh14m.png",
     },
     name: "Mii Brawler",
     id: "51",
@@ -979,7 +979,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552434/Ultimate%20Characters/Icons/sc5k2mb8cgfuaqhcsejf.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552434/Ultimate%20Characters/Portraits/sxcbzeoujxtksqsf9ri0.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669680060/Smash%20Characters/Mii_Swordfighter_eb00cv.png",
     },
     name: "Mii Swordfighter",
     id: "52",
@@ -997,7 +997,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552507/Ultimate%20Characters/Icons/wi8suczj7o1wwrfvapn4.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552507/Ultimate%20Characters/Portraits/m0g5wlfg67s9stbceeve.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669680060/Smash%20Characters/Mii_Gunner_js3hxt.png",
     },
     name: "Mii Gunner",
     id: "53",
@@ -1015,7 +1015,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552666/Ultimate%20Characters/Icons/rk39ts4tibwb5ne9icou.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552666/Ultimate%20Characters/Portraits/sgopc6ucy3y8qujzbd0j.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681142/Smash%20Characters/39_-_rBnpron_rk625f.png",
     },
     name: "Palutena",
     id: "54",
@@ -1033,7 +1033,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552783/Ultimate%20Characters/Icons/vzz3x3ssvytgupyp3qog.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552783/Ultimate%20Characters/Portraits/jnzo3mvcktf5vngvrjbs.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681159/Smash%20Characters/56_-_5v89Wvl_opjxar.png",
     },
     name: "Pac-Man",
     id: "55",
@@ -1051,7 +1051,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552922/Ultimate%20Characters/Icons/tloqxpo9hmeovslexn6m.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595552922/Ultimate%20Characters/Portraits/cow4ldqzgar7b6dmvybl.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681193/Smash%20Characters/44_-_yUauOLw_uni9ep.png",
     },
     name: "Robin",
     id: "56",
@@ -1069,7 +1069,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553030/Ultimate%20Characters/Icons/ggdtogz09jiiu4w3lzwl.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553030/Ultimate%20Characters/Portraits/yvt9dgaftrxszvmmvt6i.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681188/Smash%20Characters/50_-_L4mFVZd_fvjcvl.png",
     },
     name: "Shulk",
     id: "57",
@@ -1087,7 +1087,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553178/Ultimate%20Characters/Icons/kxm4lzndmj4yxcs1l9hx.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553179/Ultimate%20Characters/Portraits/tkxsplarjiqdasvwbhm5.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681179/Smash%20Characters/8_-_VpVe8Rr_ilwfcb.png",
     },
     name: "Bowser Jr.",
     id: "58",
@@ -1105,7 +1105,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553304/Ultimate%20Characters/Icons/rhbwlrbzfaxoqtokr7yf.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553304/Ultimate%20Characters/Portraits/mhzcsfvmnzhi191ty6ct.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681165/Smash%20Characters/64_-_c7uC9Pf_tbatrz.png",
     },
     name: "Duck Hunt",
     id: "59",
@@ -1123,7 +1123,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553458/Ultimate%20Characters/Icons/hk7szzdgutkt9u4i8kov.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553458/Ultimate%20Characters/Portraits/ragr8vtk9dywyy1qwvrx.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681202/Smash%20Characters/59_-_gdHTlXx_quemu2.png",
     },
     name: "Ryu",
     id: "60",
@@ -1141,7 +1141,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553607/Ultimate%20Characters/Icons/ctvo71pqwbljfxucwwsj.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553604/Ultimate%20Characters/Portraits/vhhjuhcygtj64ykct5ng.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669683848/Smash%20Characters/Ken_SSBU_xmwhbx.png",
     },
     name: "Ken",
     id: "060",
@@ -1159,7 +1159,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553876/Ultimate%20Characters/Icons/yk2vhtzoeno1yo34ezng.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595553877/Ultimate%20Characters/Portraits/miscvu2sxbvcrw4jicm4.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681190/Smash%20Characters/53_-_cH1jqDH_aetedr.png",
     },
     name: "Cloud",
     id: "61",
@@ -1177,7 +1177,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595554138/Ultimate%20Characters/Icons/nman7jnoazuhef5sau0s.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595554139/Ultimate%20Characters/Portraits/efumqstjxjohpfltbevx.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681193/Smash%20Characters/44_-_yUauOLw_uni9ep.png",
     },
     name: "Bayonetta",
     id: "63",
@@ -1195,7 +1195,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698333/Ultimate%20Characters/Icons/kxmmeakhmba5pxijb8ay.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698333/Ultimate%20Characters/Portraits/p5mhpckizibpzlli7ptt.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681148/Smash%20Characters/21_-_9r3Om6k_pfk2tk.png",
     },
     name: "Ridley",
     id: "65",
@@ -1213,7 +1213,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698474/Ultimate%20Characters/Icons/smmkbvyoaazxzjyvl5if.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698474/Ultimate%20Characters/Portraits/xulrsh4vvfx4sly6j5vg.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684019/Smash%20Characters/1200px-Simon_SSBU_wedfgk.png",
     },
     name: "Simon",
     id: "66",
@@ -1231,7 +1231,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698599/Ultimate%20Characters/Icons/czu2zelvmwdktwfnolxt.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698599/Ultimate%20Characters/Portraits/df2ejzpss1e6ze5tpulg.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684094/Smash%20Characters/1200px-Richter_SSBU_m7jevq.png",
     },
     name: "Richter",
     id: "066",
@@ -1249,7 +1249,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698772/Ultimate%20Characters/Icons/xfp1vgwbrwejst5dmttz.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698773/Ultimate%20Characters/Portraits/yo7tzfw0mgqqkwfdncwv.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684548/Smash%20Characters/1200px-King_K._Rool_SSBU_tpfocd.png",
     },
     name: "King K. Rool",
     id: "67",
@@ -1267,7 +1267,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698901/Ultimate%20Characters/Icons/zybbki3g0hwmpa6ybb4b.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595698902/Ultimate%20Characters/Portraits/bvtqrichcixgvugkf6qa.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684546/Smash%20Characters/1200px-Isabelle_SSBU_gv0ua0.webp",
     },
     name: "Isabelle",
     id: "68",
@@ -1285,7 +1285,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699009/Ultimate%20Characters/Icons/s2fdhbzperd5qhvkav6s.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699010/Ultimate%20Characters/Portraits/tuuxou6ojsskwzgpttmd.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684594/Smash%20Characters/800px-Incineroar_SSBU_drmdly.png",
     },
     name: "Incineroar",
     id: "69",
@@ -1303,7 +1303,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699149/Ultimate%20Characters/Icons/zwn1q3ctncghuitbybo3.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699150/Ultimate%20Characters/Portraits/iz5cskizfcknerbjgveg.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684637/Smash%20Characters/800px-Piranha_Plant_SSBU_ronv0n.png",
     },
     name: "Piranha Plant",
     id: "70",
@@ -1321,7 +1321,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699295/Ultimate%20Characters/Icons/clwi7yt9k2thtcs6sfkk.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699295/Ultimate%20Characters/Portraits/hyhkooxmcbchmflb9cmm.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684692/Smash%20Characters/Joker_SSBU_hddisi.png",
     },
     name: "Joker",
     id: "71",
@@ -1339,7 +1339,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699474/Ultimate%20Characters/Icons/nee4ttazorwhvu3xm5ft.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699475/Ultimate%20Characters/Portraits/mceey4z9ic1e9od7y87t.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669685024/Smash%20Characters/Hero_SSBU_iobvst.png",
     },
     name: "Hero",
     id: "72",
@@ -1357,7 +1357,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699735/Ultimate%20Characters/Icons/pzutype0y89ulck3gs3h.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699735/Ultimate%20Characters/Portraits/im0mc8fwe64ymdozcwyr.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669685023/Smash%20Characters/800px-Banjo___Kazooie_SSBU_afiab0.png",
     },
     name: "Banjo & Kazooie",
     id: "73",
@@ -1375,7 +1375,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699847/Ultimate%20Characters/Icons/lynnfsewq7grm3eiygx2.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699847/Ultimate%20Characters/Portraits/eb4ekmbtcu1acb2t3dsz.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684787/Smash%20Characters/Terry_SSBU_p5t55l.png",
     },
     name: "Terry",
     id: "74",
@@ -1393,7 +1393,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699952/Ultimate%20Characters/Icons/aibsspkpveu4yw4fg2xf.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595699952/Ultimate%20Characters/Portraits/towmnvsjhdfo5hwaedpd.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669685064/Smash%20Characters/Byleth_SSBU_dyukzb.png",
     },
     name: "Byleth",
     id: "75",
@@ -1411,7 +1411,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
       portrait:
-        "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Portraits/dslisbwdhuyxmdhs3yiz.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669685065/Smash%20Characters/Min_Min_SSBU_tmok4n.png",
     },
     name: "Min Min",
     id: "76",
@@ -1519,7 +1519,7 @@ export const CharacterList = [
     images: {
       icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1595700128/Ultimate%20Characters/Icons/tlzzdzaoswd0jzwmcocr.png",
       portrait:
-        "https://res.cloudinary.com/dare4cvkk/image/upload/v1635345321/Sora/Sora_SSBU_zboxyr.png",
+        "https://res.cloudinary.com/dare4cvkk/image/upload/v1669684728/Smash%20Characters/800px-Sora-Alt_3_SSBU_ehryq0.png",
     },
     name: "Sora",
     id: "82",
