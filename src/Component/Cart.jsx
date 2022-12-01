@@ -22,9 +22,8 @@ const Cart = () => {
             </button>
           </div>
         </div>
-        <div
-          className="row justify-content-center"
-        >
+
+        <div className="row justify-content-center">
           {cart?.map((item) => (
             <CartItem
               id={item.id}
@@ -38,7 +37,7 @@ const Cart = () => {
       </div>
       <div className="container col-12 mb-5  fixed-bottom">
         <h1 className="display-6 fw-bolder text-center">
-          <Total />
+          <Total totalQuantity={0}/>
         </h1>
       </div>
     </>
