@@ -31,24 +31,22 @@ export const CharacterList = [
     icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501875/Series/donkey-kong_tppruc.svg",
     franchise: "Donkey Kong",
   },
-  // {
-  //   alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
-  //   description:
-  //     "Whether you're playing as traditional Link or the new Breath of the Wild version, it's great to see a legend make his way back into this game. Not only has Link been \"upgraded,\" but you now can throw remote bombs as if you were in BOTW. Don't forget to unleash the chickens!",
-  //   availability: "Starter",
-  //   images: {
-  //     icon: "https://res.cloudinary.com/dfen7mkm8/image/upload/v1594501722/Ultimate%20Characters/Icons/120px-LinkHeadSSBUWebsite_pzo2jz.png",
-  //     portrait:
-  //       "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681201/Smash%20Characters/11_-_fcCLhoC_dietap.png",
-  //   },
-  //   name: "Link",
-  //   id: "3",
-  //   series: {
-  //     price: "4.99",
-  //     icon: "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681201/Smash%20Characters/11_-_fcCLhoC_dietap.png",
-  //     name: "The Legend of Zelda",
-  //   },
-  // },
+  {
+    alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
+    description:
+      "Whether you're playing as traditional Link or the new Breath of the Wild version, it's great to see a legend make his way back into this game. Not only has Link been \"upgraded,\" but you now can throw remote bombs as if you were in BOTW. Don't forget to unleash the chickens!",
+    availability: "Starter",
+
+    portrait:
+      "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681201/Smash%20Characters/11_-_fcCLhoC_dietap.png",
+
+    name: "Link",
+    id: "3",
+
+    price: "4.99",
+    icon: "https://res.cloudinary.com/dare4cvkk/image/upload/v1669681201/Smash%20Characters/11_-_fcCLhoC_dietap.png",
+    franchise: "The Legend of Zelda",
+  },
   // {
   //   alsoAppearsIn: ["SSB", "Melee", "Brawl", "SSB4"],
   //   description:

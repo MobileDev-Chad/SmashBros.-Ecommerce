@@ -6,6 +6,14 @@ import CharacterList from "../data/CharacterList";
 const Characters = () => {
   const [franchise, setFranchise] = useState("");
 
+  const groupedByCategory = CharacterList.reduce((acc, item) => {
+    if (!Array.isArray(acc[item.franchise])) {
+      acc[item.franchise] = [];
+    }
+    acc[item.franchise].push(item.name);
+    return acc;
+  }, {});
+
   const ShowCharacters = () => {
     return (
       <>
@@ -16,159 +24,15 @@ const Characters = () => {
           >
             All
           </button>
-          {CharacterList.map(({ franchise }) => {
+
+          {Object.entries(groupedByCategory).map(([franchise]) => (
             <button
               className="btn btn-outline-dark me-1"
-              // onClick={() => setFranchise("Super Mario")}
+              onClick={() => setFranchise(`${franchise}`)}
             >
               {franchise}
-            </button>;
-          })}
-
-          {/* <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Donkey Kong")}
-          >
-            Donkey Kong
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("The Legend of Zelda")}
-          >
-            The Legend of Zelda
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Metroid")}
-          >
-            Metroid
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Yoshi")}
-          >
-            Yoshi
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Kirby")}
-          >
-            Kirby
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Star Fox")}
-          >
-            Star Fox
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Pokemon")}
-          >
-            Pokemon
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("EarthBound")}
-          >
-            EarthBound
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("F-Zero")}
-          >
-            F-Zero
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Ice Climbers")}
-          >
-            Ice Climbers
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Fire Emblem")}
-          >
-            Fire Emblem
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Game & Watch")}
-          >
-            Game & Watch
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Kid Icarus")}
-          >
-            Kid Icarus
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Wario Ware")}
-          >
-            Wario Ware
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Metal Gear")}
-          >
-            Metal Gear
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Sonic")}
-          >
-            Sonic
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Pikmin")}
-          >
-            Pikmin
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("R.O.B.")}
-          >
-            R.O.B.
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Animal Crossing")}
-          >
-            Animal Crossing
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Mega Man")}
-          >
-            Mega Man
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Xenoblade Chronicles")}
-          >
-            Xenoblade Chronicles
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Wii Fit")}
-          >
-            Wii Fit
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Punch-Out!!")}
-          >
-            Punch-Out!!
-          </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Downloadable")}
-          >
-            Downloadable
-          </button> */}
+            </button>
+          ))}
         </section>
         {CharacterList.filter((characters) => {
           if (franchise === "") {

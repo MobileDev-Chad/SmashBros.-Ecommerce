@@ -41,9 +41,9 @@ const CartItem = ({ id, portrait, name, price, quantity }) => {
               onClick={() => {
                 if (quantity === 1) {
                   dispatch(removeItem(id));
-                  
+                  return;
                 }
-                dispatch(decrementQuantity({ id }));
+                dispatch(decrementQuantity(id));
               }}
             >
               <i className="fa fa-minus"></i>

@@ -24,7 +24,6 @@ const Cart = () => {
         </div>
         <div
           className="row justify-content-center"
-          style={{ height: "500px", overflowY: "scroll", overflow: "hidden" }}
         >
           {cart?.map((item) => (
             <CartItem
