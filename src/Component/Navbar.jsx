@@ -16,7 +16,7 @@ const getTotalQuantity = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-4" to="/">
             <img
@@ -68,8 +68,8 @@ const getTotalQuantity = () => {
                 <i className="fa fa-user-plus me-1"></i> Register
               </NavLink>
               <NavLink to="/cart" className="btn btn-outline-dark ms-2">
-                <i className="fa fa-shopping-cart me-1"></i> Cart 
-                  {getTotalQuantity() || 0}
+                <i className="fa fa-shopping-cart me-1"></i> Cart (
+                  {getTotalQuantity() || 0})
               </NavLink>
             </div>
           </div>

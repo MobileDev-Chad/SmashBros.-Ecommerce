@@ -14,9 +14,9 @@ const CharacterInfo = () => {
 
   const cName = cartBtn === "Add to Cart" ? "primary" : "danger";
 
-  const handleCart = ({ id, images, name, series }) => {
+  const handleCart = ({ id, portrait, name, franchise, price }) => {
     if (cartBtn === "Add to Cart") {
-      dispatch(addToCart({ id, images, name, series }));
+      dispatch(addToCart({ id, portrait, name, franchise, price }));
       setCartBtn("Remove from Cart") 
     } else {
       dispatch(removeItem(id));
@@ -32,12 +32,12 @@ const CharacterInfo = () => {
           if (id === character.id) {
             return CharacterList;
           }
-        }).map(({ id, images, name, series, description }) => {
+        }).map(({ id, portrait, name, icon, franchise, description, price }) => {
           return (
             <>
               <div className="col-md-6" key={id}>
                 <img
-                  src={images.portrait}
+                  src={portrait}
                   alt={name}
                   height="400px"
                   width="400px"
@@ -45,15 +45,15 @@ const CharacterInfo = () => {
               </div>
               <div className="col-md-6">
                 <h4 className="text-uppercase text-black-100 fs-3 fw-bold">
-                  <img src={series.icon} alt="" height="30px" />
-                  {series.name}
+                  <img src={icon} alt="" height="30px" />
+                  {franchise}
                 </h4>
                 <h1 className="display-5">{name}</h1>
-                <h3 className="display-6 fw-bold my-4">$ {series.price}</h3>
+                <h3 className="display-6 fw-bold my-4">$ {price}</h3>
                 <p className="lead">{description}</p>
                 <button
                   className={`btn btn-outline-dark btn-${cName} px-4 py-2`}
-                  onClick={() => handleCart({id, images, name, series})}
+                  onClick={() => handleCart({id, portrait, name, franchise, price})}
                 >
                   {cartBtn}
                 </button>

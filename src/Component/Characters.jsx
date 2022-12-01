@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import { NavLink } from "react-router-dom";
 import CharacterList from "../data/CharacterList";
@@ -16,13 +16,16 @@ const Characters = () => {
           >
             All
           </button>
-          <button
-            className="btn btn-outline-dark me-1"
-            onClick={() => setFranchise("Super Mario")}
-          >
-            Super Mario
-          </button>
-          <button
+          {CharacterList.map(({ franchise }) => {
+            <button
+              className="btn btn-outline-dark me-1"
+              // onClick={() => setFranchise("Super Mario")}
+            >
+              {franchise}
+            </button>;
+          })}
+
+          {/* <button
             className="btn btn-outline-dark me-1"
             onClick={() => setFranchise("Donkey Kong")}
           >
@@ -165,7 +168,7 @@ const Characters = () => {
             onClick={() => setFranchise("Downloadable")}
           >
             Downloadable
-          </button>
+          </button> */}
         </section>
         {CharacterList.filter((characters) => {
           if (franchise === "") {
@@ -174,25 +177,25 @@ const Characters = () => {
             return CharacterList;
           } else if (franchise === characters.availability) {
             return characters;
-          } else if (franchise === characters.series.name) {
+          } else if (franchise === characters.franchise) {
             return characters;
-          } else if (franchise === characters.series.icon) {
+          } else if (franchise === characters.icon) {
             return characters;
           }
-        }).map(({ id, images, name, series }) => {
+        }).map(({ id, portrait, name, price }) => {
           return (
             <>
               <div className="col-md-3 mb-4">
                 <div className="card h-100 text-center p-4" key={id}>
                   <img
-                    src={images.portrait}
+                    src={portrait}
                     height="275px"
                     className="card-img-top"
                     alt={name}
                   />
                   <div className="card-body">
                     <h5 className="card-title mb-0  fw-bold">{name}</h5>
-                    <p className="card-text lead">${series.price}</p>
+                    <p className="card-text lead">${price}</p>
                     <NavLink
                       to={`/characters/${id}`}
                       className="btn btn-primary btn-outline-dark "
@@ -214,7 +217,7 @@ const Characters = () => {
         <div className="row">
           <div className="col-12 mb-5">
             <h1 className="display-6 fw-bolder text-center">Characters</h1>
-            
+
             <hr />
           </div>
         </div>

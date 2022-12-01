@@ -9,15 +9,15 @@ function Total() {
     let totalPrice = 0;
     cart.forEach((item) => {
       totalQuantity += item.quantity;
-      totalPrice += item.series.price * item.quantity;
+      totalPrice += item.price * item.quantity;
     });
     return { totalPrice, totalQuantity };
   };
 
   return (
-    <p className="total__p">
-      total ({getTotal().totalQuantity} items) :{" "}
-      <strong>${getTotal().totalPrice}</strong>
+    <p>
+      Total ({getTotal().totalQuantity} items) :{" "}
+      <strong className="text-success">${getTotal().totalPrice.toFixed(2)}</strong>
     </p>
   );
 }
