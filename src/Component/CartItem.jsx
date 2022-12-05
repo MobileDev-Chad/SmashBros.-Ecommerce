@@ -4,6 +4,8 @@ import {
   removeItem,
 } from "../redux/cartSlice";
 import { useDispatch } from "react-redux";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 const CartItem = ({ id, portrait, name, price, quantity }) => {
   const dispatch = useDispatch();
@@ -23,7 +25,7 @@ const CartItem = ({ id, portrait, name, price, quantity }) => {
 
         <div className="row justify-content-center">
           <div className="col-md-4" key={id}>
-            <img
+            <LazyLoadImage
               className="card"
               src={portrait}
               alt={name}

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { NavLink } from "react-router-dom";
 import CharacterList from "../data/CharacterList";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 const Characters = () => {
   const [franchise, setFranchise] = useState("");
@@ -34,6 +36,7 @@ const Characters = () => {
             </button>
           ))}
         </section>
+
         {CharacterList.filter((characters) => {
           if (franchise === "") {
             return CharacterList;
@@ -51,7 +54,7 @@ const Characters = () => {
             <>
               <div className="col-md-3 mb-4">
                 <div className="card h-100 text-center p-4" key={id}>
-                  <img
+                  <LazyLoadImage
                     src={portrait}
                     height="275px"
                     className="card-img-top"

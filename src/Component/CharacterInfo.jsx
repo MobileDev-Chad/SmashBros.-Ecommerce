@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import CharacterList from "../data/CharacterList";
 import { addToCart, removeItem } from "../redux/cartSlice";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const CharacterInfo = () => {
   const { id } = useParams();
@@ -36,7 +37,7 @@ const CharacterInfo = () => {
           return (
             <>
               <div className="col-md-6" key={id}>
-                <img
+                <LazyLoadImage
                   src={portrait}
                   alt={name}
                   height="400px"
@@ -45,7 +46,7 @@ const CharacterInfo = () => {
               </div>
               <div className="col-md-6">
                 <h4 className="text-uppercase text-black-100 fs-3 fw-bold">
-                  <img src={icon} alt="" height="30px" />
+                  <LazyLoadImage src={icon} alt="" height="30px" />
                   {franchise}
                 </h4>
                 <h1 className="display-5">{name}</h1>
