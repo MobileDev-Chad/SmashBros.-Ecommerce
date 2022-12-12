@@ -1,18 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const Navbar = () => {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
-const cart = useSelector((state) => state.cart)
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
-const getTotalQuantity = () => {
-  let total = 0
-  cart.forEach(item => {
-    total += item.quantity
-  })
-  return total
-}
+  const cart = useSelector((state) => state.cart);
+
+  const getTotalQuantity = () => {
+    let total = 0;
+    cart.forEach((item) => {
+      total += item.quantity;
+    });
+    return total;
+  };
 
   return (
     <>
@@ -27,17 +30,21 @@ const getTotalQuantity = () => {
             />
           </NavLink>
           <button
-            className="navbar-toggler"
+            className="custom-toggler navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            data-target="#navbarsExample09"
+            aria-controls="navbarsExample09"
+            aria-expanded={!isNavCollapsed ? true : false}
             aria-label="Toggle navigation"
+            onClick={handleNavCollapse}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
+            id="navbarsExample09"
+          >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/">
@@ -69,7 +76,7 @@ const getTotalQuantity = () => {
               </NavLink>
               <NavLink to="/cart" className="btn btn-outline-dark ms-2">
                 <i className="fa fa-shopping-cart me-1"></i> Cart (
-                  {getTotalQuantity() || 0})
+                {getTotalQuantity() || 0})
               </NavLink>
             </div>
           </div>

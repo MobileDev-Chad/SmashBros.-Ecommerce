@@ -8,6 +8,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const Characters = () => {
   const [franchise, setFranchise] = useState("");
 
+  // Reduces the dublicate franchise names to 1
   const groupedByCategory = CharacterList.reduce((acc, item) => {
     if (!Array.isArray(acc[item.franchise])) {
       acc[item.franchise] = [];
