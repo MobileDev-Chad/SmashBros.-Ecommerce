@@ -2,7 +2,7 @@ import {
   incrementQuantity,
   decrementQuantity,
   removeItem,
-} from "../redux/cartSlice";
+} from "../../redux/cartSlice";
 import { useDispatch } from "react-redux";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 

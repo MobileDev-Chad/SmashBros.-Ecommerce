@@ -1,14 +1,13 @@
 import Navbar from "../common/Navbar";
-import Home from "../Home";
-import Characters from "../Characters";
-import CharacterInfo from "../CharacterInfo";
-import About from "../About";
-import Contact from "../Contact";
-import Cart from "../Cart"
-import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
+import Home from "../home/Home";
+import Characters from "../characters/Characters";
+import CharacterInfo from "../characterinfo/CharacterInfo";
+import About from "../about/About";
+import Contact from "../contact/Contact";
+import Cart from "../cart/Cart";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const Pages = () => {
-
   return (
     <Router>
       <Navbar />

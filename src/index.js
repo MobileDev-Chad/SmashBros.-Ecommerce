@@ -6,13 +6,17 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import { BrowserRouter } from "react-router-dom";
 // import store and provider
-import { store } from './redux/store';
+import { persistor, store } from "./redux/store";
 import { Provider } from "react-redux";
+
+import { PersistGate } from "redux-persist/integration/react";
 
 ReactDOM.render(
   <BrowserRouter>
     <Provider store={store}>
-      <App />
+      <PersistGate loading={null} persistor={persistor}>
+        <App />
+      </PersistGate>
     </Provider>
   </BrowserRouter>,
   document.getElementById("root")

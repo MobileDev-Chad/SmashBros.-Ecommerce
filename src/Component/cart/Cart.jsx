@@ -1,7 +1,7 @@
-import CartItem from "./CartItem";
-import Total from "./Total";
+import CartItem from "../cartitem/CartItem";
+import Total from "../total/Total";
 import { useSelector, useDispatch } from "react-redux";
-import { clearCart } from "../redux/cartSlice";
+import { clearCart } from "../../redux/cartSlice";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
@@ -37,7 +37,7 @@ const Cart = () => {
       </div>
       <div className="container col-12 mb-5  fixed-bottom">
         <h1 className="display-6 fw-bolder text-center">
-          <Total totalQuantity={0}/>
+          <Total totalQuantity={0} />
         </h1>
       </div>
     </>

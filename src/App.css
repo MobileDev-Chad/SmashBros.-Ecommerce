@@ -1,11 +1,40 @@
 /* Navbar */
-.navbar-nav a{
-    font-size: 18px;
+.navbar-nav a {
+  font-size: 18px;
 }
 /* End of Navbar */
 
 /* Characters */
 .card img:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 /* End of Characters */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .hero img {
+    height: 500px;
+  }
+
+  .hero h5 {
+    font-size: 1.65rem;
+  }
+  .container p {
+    font-size: 0.1rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

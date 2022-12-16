@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 
 import { NavLink } from "react-router-dom";
-import CharacterList from "../data/CharacterList";
+import CharacterList from "../../data/CharacterList";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-
 
 const Characters = () => {
   const [franchise, setFranchise] = useState("");
@@ -57,7 +56,7 @@ const Characters = () => {
                 <div className="card h-100 text-center p-4" key={id}>
                   <LazyLoadImage
                     src={portrait}
-                    height="275px"
+                    max-width= "100%"
                     className="card-img-top"
                     alt={name}
                   />

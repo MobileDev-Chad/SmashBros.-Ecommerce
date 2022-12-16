@@ -15,9 +15,9 @@ const Home = () => {
             <h5 className="card-title display-3 fw-bolder mb-0 mx-5">
               SMASH ULTIMATE HAS ARRIVED
             </h5>
-            <p className="card-text lead fs-2 mx-5">
+            {/* <p className="card-text lead fs-2 mx-5">
               YOUR FAVORITE HEROES...AND VILLIANS
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
